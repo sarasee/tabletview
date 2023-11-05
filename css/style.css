@@ -12,6 +12,13 @@ body {
     position: relative;
     top: -40px;
 }
+a[href= '#main'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
 nav {
     border: 2px solid black;
 }
