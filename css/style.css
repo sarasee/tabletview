@@ -1,0 +1,158 @@
+body {
+    background-color: cornflowerblue;
+}
+#skip-to-content {
+    background: cornflowerblue;
+    color: cornflowerblue;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: relative;
+    top: -40px;
+}
+nav {
+    border: 2px solid black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #301282;
+}
+.current {
+    border: solid lightblue 3px;
+    border-radius: 5px;
+    padding: 2px;
+}
+header {
+    background-color: #301282;
+    animation: 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 44px;
+}
+.header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  animation-name: slideIn;
+  animation-duration: 1s;
+}
+.large-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.large-container .container {
+    margin-bottom: 40px;
+    border: solid #153462 5px;
+    border-radius: 30px;
+    padding: 15px;
+    grid-column: 1/-1;
+}
+h1 {
+    color: lightblue;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: #301282;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    color: #301282;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: pink;
+}
+main {
+    padding: 25px;
+}
+p {
+    text-align: center;
+    color: #301282;
+}
+.likes{
+    text-align: center;
+    align-items: center;
+    color: #301282;
+}
+figcaption{
+    text-align: center;
+    color: #301282;
+}
+.steps{
+    text-align: center;
+    color: #301282;
+}
+.ingredients{
+    text-align: center;
+    color: #301282;
+}
+img {
+    max-width: 100%;
+    padding: 25px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.gif {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gif {
+      display: none;
+    }
+  }
+  @keyframes slideIn {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    animation-name: slideIn;
+    animation-duration: 1s;
+  }
+.head {
+    transition: transform 1s ease;
+  }
+  
+  .head:hover {
+    transform: scale(1.2);
+  }
